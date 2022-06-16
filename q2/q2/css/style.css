@@ -1,2 +1,28 @@
 @charset "UTF-8";
 /* 回答はここから */
+/* q②の回答 */
+
+.q2--outer-box{
+  text-align: center;
+}
+
+.q2--inner-box{
+  display: inline-block;
+  text-align: left;
+}
+
+.q2--text-box ul{
+  display: flex;
+  margin: auto;
+}
+
+.q2--text-box li{
+  display: inline-block;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  background-color: #d2b48c;
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+}
