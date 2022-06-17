@@ -1,1 +1,39 @@
 @charset "UTF-8";
+/* q3の回答 */
+.td,table{
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table, td, th {
+  border: 1px solid black;
+}
+
+.tr, th{
+  background-color: #319c4a;
+  line-height: 26px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.td, tr{
+  text-align: center;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.td, tr:nth-child(2n+0) {
+  background-color:#d5ffc7;
+}
+
+.td, tr:nth-child(2n+1) {
+  background-color:#bcbcbc;
+}
+
+.tr, th:last-child{
+  border-top: 1px double rgb(255, 255, 255);
+}
+
+.td, tr:last-child{
+  border-top: 1px double rgb(255, 255, 255);
+}
