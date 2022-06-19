@@ -1,1 +1,60 @@
 @charset "UTF-8";
+/* q4の回答 */
+.box{
+  text-align: center;
+  display: flex;
+ }
+
+.textA{
+  float: left;
+  width: 300px;
+  background-color: #ff7b7b;
+  padding: 20px;
+}
+
+.textB{
+  flex: 1;
+  float: left;
+  background-color: #7b86ff;
+  padding: 20px;
+}
+
+.textC{
+  float: left;
+  width: 300px;
+  background-color: #fff27b;
+  padding: 20px;
+}
+
+.box2{
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  
+ }
+
+.textD:nth-child(1) {
+  flex: 1;
+  word-wrap: break-word;
+  background-color: #7bff91;
+  padding: 20px;
+}
+
+.textE:nth-child(2) {
+  width: 400px;
+  background-color: #ff7be2;
+  padding: 20px;
+}
+
+.textF:nth-child(3) {
+  width: 400px;
+  background-color: #ffc67b;
+  padding: 20px;
+}
+
+.textG:nth-child(4) {
+  flex: 1;
+  word-wrap: break-word;
+  background-color: #7bf2ff;
+  padding: 20px;
+}
