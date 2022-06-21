@@ -1,1 +1,128 @@
 @charset "UTF-8";
+/* q5-1回答 */
+.q5--item{
+  background-color: #00bbdd;
+  color: #fff;
+  width: 65px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.q51--item-box{
+  display: flex;
+}
+
+.q51--item-box2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.q51--item-inner-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.q51--item-inner-box2{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* q5-2回答 */
+.q52--item-box{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.q52--item-box2{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.q52--item-box3{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* q5-3回答 */
+.q53--item-box{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.q53--item-box2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.q53--item-box3{
+  display: flex;
+  justify-content: center;
+}
+
+.q53--item-box4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.q53--item-box5{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* q5-4回答 */
+.q54--item{
+  background-color: #00bbdd;
+  color: #fff;
+  padding: 10px;
+}
+
+.q54--item-box{
+  display: grid;
+  grid-template-columns:200px 200px 200px;
+  gap: 10px;
+}
+
+.q54--item-box2{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.q54--item-box3{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:200px 200px;
+  gap: 10px;
+}
+
+.q54--item2{
+  background-color: #00bbdd;
+  color: #fff;
+  padding: 10px;
+}
+
+.q54--item-box4{
+  margin-top: 20px;
+  color: #fff;
+  display: grid;
+  grid-template-columns:100px 100px 100px;
+  grid-template-rows:100px 100px 100px;
+}
+
+.q54--item2:nth-of-type(1){ 
+  background-color: #dd0700;
+  grid-column: 1 / 3;
+}
+
+.q54--item2:nth-of-type(3){ 
+  background-color: #0bdd00;
+  grid-row: 2 / 4;
+}
+
+.q54--item2:nth-of-type(4){ 
+  background-color: #d9dd00;
+  grid-column: 2 / 4;
+}
